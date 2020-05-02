@@ -257,12 +257,10 @@
 
 .barrafinal2 {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     align-content: space-between;
     justify-content: space-between;
 }
-
-
-
 #bodyfooter {
     position: relative;
     display: grid;
@@ -289,6 +287,76 @@
     border-radius: 0px 200px 0px 0px;
     color: white;
 }
+
+.lp1h2 {
+    position: absolute;
+    width: 387px;
+    height: 122px;
+    left: 213px;
+    top: 100px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.lp1p {
+    position: absolute;
+    width: 460px;
+    height: 80px;
+    left: 213px;
+    top: 234px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.botonfinal {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    left: 924px;
+    top: 207px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #5A98D0;
+    border-radius: 10px;
+}
+
+.pf1 {
+    position: absolute;
+    width: 320px;
+    height: 80px;
+    left: 213px;
+    top: 434px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
 
 .lp1h2 {
     position: absolute;
