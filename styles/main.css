@@ -2,7 +2,7 @@
     position: absolute;
     width: 1510px;
     height: 437.5px;
-    top: 36.5px;
+    top: 10px;
     border: 15px solid rgba(255, 255, 255, 0.15);
 }
 
@@ -10,9 +10,122 @@
     width: 1200px;
     height: 48px;
     left: 83px;
-    top: 40px;
+    top: 0px;
+    display: flex;
 }
 
+.circulo1 {
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.logo {
+    position: absolute;
+    left: 90px;
+    right: 18.75%;
+    top: 51px;
+    bottom: 16.67%;
+    
+    font-family: Gilroy;
+    font-size: 20px;
+    line-height: 28px;
+    
+    letter-spacing: 0.04em;
+    border-radius: 50%;
+    border-color: blue;
+    color: #316099;
+}
+
+.binicio {
+    position: absolute;
+    width: 366px;
+    height: 28px;
+    left: 917px;
+    top: 51px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+
+    letter-spacing: 0.04em;
+
+    color: black;
+
+}
+
+
+.banner {
+    position: absolute;
+    width: 1366px;
+    height: 250px;
+    left: 0px;
+    top: 130px;
+
+    background: linear-gradient(211.87deg, #98D0FC 2.46%, #3481D7 93.24%);
+}
+
+.bannerh2 {
+    position: absolute;
+    width: 305px;
+    height: 74px;
+    left: 531px;
+    top: 10px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 74px;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color:white;
+}
+
+.bannerp {
+    position: absolute;
+    width: 780px;
+    height: 60px;
+    left: 293px;
+    top: 117px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+ 
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: white;
+}
+
+.barrabuscar {
+    position: absolute;
+    width: 940px;
+    height: 36px;
+    left: 213px;
+    top: 450px;
+
+    background: #F4F4F4;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 10px;
+}
+
+.boton {
+    background: #F4F4F4;
+
+}
 
 .bodyp1 {
     position: absolute;
@@ -23,19 +136,281 @@
 
 }
 
+
+.bodyp1h2 {
+    position: absolute;
+    width: 103px;
+    height: 23px;
+    left: 0px;
+    top: 8px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    letter-spacing: 0.04em;
+
+    color: #356EAD;
+    opacity: 0.8;
+}
+
+.ima1{
+    position: absolute;
+    top: 63px;
+    width: 941px;
+    display: grid;
+    grid-template-columns: 1fr 1fr, minmax(314px, 1fr);
+    grid-template-rows: 50px 50px;
+    grid-column-gap: 10px;
+}
+
+.img1 {
+    grid-column-start: 2;
+    grid-column-end: 3;    
+}
+
+.p2body1{
+    position: absolute;
+    top: 540px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap: 50px;
+}
+
+.mfbody1 {
+    position: relative;
+    display: grid;
+    justify-content: end;
+    top: 1044px;
+}
+
 .bodyp2 {
     position: absolute;
     width: 941px;
     height: 1260px;
     left: 213px;
-    top: 2500px;
+    top: 1680px;
 }
 
-footer {
-    position: absolute;
+
+.ima4 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(377px, 1fr));
+    grid-column-gap: 10px;
+ }
+
+.img4 {
+    grid-row-start: 1;
+    grid-row-end: 6;    
+}
+
+.ima5 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(377px, 1fr));
+    grid-column-gap: 10px;
+ }
+
+.img5 {
+    grid-row-start: 1;
+    grid-row-end: 6;    
+}
+
+.ima6 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(377px, 1fr));
+    grid-column-gap: 10px;
+ }
+
+.img6 {
+    grid-row-start: 1;
+    grid-row-end: 6;    
+}
+
+.ima7 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(377px, 1fr));
+    grid-column-gap: 10px;
+ }
+
+.img7 {
+    grid-row-start: 1;
+    grid-row-end: 6;    
+}
+
+.ima8 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(377px, 1fr));
+    grid-column-gap: 10px;
+ }
+
+.img8 {
+    grid-row-start: 1;
+    grid-row-end: 6;    
+}
+
+.barrafinal2 {
+    display: grid;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+
+
+#bodyfooter {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.ele1 {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    justify-content: center;
+}
+
+#footer {
+    position: relative;
     width: 1270px;
     height: 869px;
     left: 0px;
-    top: 4807px;
+    top: 3103px;
+    background: #316099;
+    border-radius: 0px 200px 0px 0px;
+    color: white;
 }
 
+.lp1h2 {
+    position: absolute;
+    width: 387px;
+    height: 122px;
+    left: 213px;
+    top: 100px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.lp1p {
+    position: absolute;
+    width: 460px;
+    height: 80px;
+    left: 213px;
+    top: 234px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.botonfinal {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    left: 924px;
+    top: 207px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #5A98D0;
+    border-radius: 10px;
+}
+
+.pf1 {
+    position: absolute;
+    width: 320px;
+    height: 80px;
+    left: 213px;
+    top: 434px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.pf2 {
+    position: absolute;
+    width: 320px;
+    height: 80px;
+    left: 621px;
+    top: 434px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+}
+
+.pf3 {
+    position: absolute;
+    width: 320px;
+    height: 80px;
+    left: 810px;
+    top: 434px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.pf4 {
+    position: absolute;
+    width: 293px;
+    height: 26px;
+    left: 213px;
+    top: 666px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+    opacity: 0.4;
+}
