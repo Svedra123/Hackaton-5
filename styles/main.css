@@ -1,0 +1,41 @@
+.inicio {
+    position: absolute;
+    width: 1510px;
+    height: 437.5px;
+    top: 36.5px;
+    border: 15px solid rgba(255, 255, 255, 0.15);
+}
+
+.navegacion {
+    width: 1200px;
+    height: 48px;
+    left: 83px;
+    top: 40px;
+}
+
+
+.bodyp1 {
+    position: absolute;
+    width: 941px;
+    height: 1044px;
+    left: 213px;
+    top: 548px;
+
+}
+
+.bodyp2 {
+    position: absolute;
+    width: 941px;
+    height: 1260px;
+    left: 213px;
+    top: 2500px;
+}
+
+footer {
+    position: absolute;
+    width: 1270px;
+    height: 869px;
+    left: 0px;
+    top: 4807px;
+}
+
